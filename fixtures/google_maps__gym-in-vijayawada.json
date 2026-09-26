@@ -1,0 +1,163 @@
+{
+ "search_metadata": {
+  "status": "Success",
+  "demo_fixture": true
+ },
+ "local_results": [
+  {
+   "title": "PowerZone Gym",
+   "type": "Gym",
+   "types": [
+    "Gym"
+   ],
+   "rating": 4.5,
+   "reviews": 356,
+   "place_id": "ChIJdemo0012",
+   "data_id": "0x3a4a0demo0012:0x000c",
+   "gps_coordinates": {
+    "latitude": 16.5071,
+    "longitude": 80.6495
+   },
+   "address": "22-6, MG Road, Vijayawada, Andhra Pradesh 522503",
+   "phone": "+91 9249827706",
+   "website": "https://example.org/powerzone",
+   "operating_hours": {
+    "monday": "9 AM\u20131 PM, 5\u20139 PM",
+    "tuesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "wednesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "thursday": "9 AM\u20131 PM, 5\u20139 PM",
+    "friday": "9 AM\u20131 PM, 5\u20139 PM",
+    "saturday": "9 AM\u20131 PM, 5\u20139 PM",
+    "sunday": "Closed"
+   },
+   "photos_count": 80,
+   "description": "24x7 gym, personal training, Zumba.",
+   "thumbnail": null,
+   "position": 1
+  },
+  {
+   "title": "Fit Nation Vijayawada",
+   "type": "Gym",
+   "types": [
+    "Gym"
+   ],
+   "rating": 4.4,
+   "reviews": 240,
+   "place_id": "ChIJdemo0013",
+   "data_id": "0x3a4a0demo0013:0x000d",
+   "gps_coordinates": {
+    "latitude": 16.504,
+    "longitude": 80.646
+   },
+   "address": "23-7, Main Road, Vijayawada, Andhra Pradesh 522503",
+   "phone": "+91 9890779946",
+   "website": null,
+   "operating_hours": {
+    "monday": "9 AM\u20131 PM, 5\u20139 PM",
+    "tuesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "wednesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "thursday": "9 AM\u20131 PM, 5\u20139 PM",
+    "friday": "9 AM\u20131 PM, 5\u20139 PM",
+    "saturday": "9 AM\u20131 PM, 5\u20139 PM",
+    "sunday": "Closed"
+   },
+   "photos_count": 55,
+   "description": "Strength and cardio gym near Benz Circle.",
+   "thumbnail": null,
+   "position": 2
+  },
+  {
+   "title": "Muscle Factory",
+   "type": "Gym",
+   "types": [
+    "Gym"
+   ],
+   "rating": 4.2,
+   "reviews": 131,
+   "place_id": "ChIJdemo0014",
+   "data_id": "0x3a4a0demo0014:0x000e",
+   "gps_coordinates": {
+    "latitude": 16.509,
+    "longitude": 80.644
+   },
+   "address": "24-1, Main Road, Vijayawada, Andhra Pradesh 522503",
+   "phone": "+91 9210053353",
+   "website": null,
+   "operating_hours": {
+    "monday": "9 AM\u20131 PM, 5\u20139 PM",
+    "tuesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "wednesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "thursday": "9 AM\u20131 PM, 5\u20139 PM",
+    "friday": "9 AM\u20131 PM, 5\u20139 PM",
+    "saturday": "9 AM\u20131 PM, 5\u20139 PM",
+    "sunday": "Closed"
+   },
+   "photos_count": 30,
+   "description": null,
+   "thumbnail": null,
+   "position": 3
+  },
+  {
+   "title": "Anytime Strong",
+   "type": "Gym",
+   "types": [
+    "Gym"
+   ],
+   "rating": 4.0,
+   "reviews": 77,
+   "place_id": "ChIJdemo0015",
+   "data_id": "0x3a4a0demo0015:0x000f",
+   "gps_coordinates": {
+    "latitude": 16.502,
+    "longitude": 80.6505
+   },
+   "address": "25-2, Main Road, Vijayawada, Andhra Pradesh 522503",
+   "phone": "+91 9826600539",
+   "website": null,
+   "operating_hours": {
+    "monday": "9 AM\u20131 PM, 5\u20139 PM",
+    "tuesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "wednesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "thursday": "9 AM\u20131 PM, 5\u20139 PM",
+    "friday": "9 AM\u20131 PM, 5\u20139 PM",
+    "saturday": "9 AM\u20131 PM, 5\u20139 PM",
+    "sunday": "Closed"
+   },
+   "photos_count": 18,
+   "description": null,
+   "thumbnail": null,
+   "position": 4
+  },
+  {
+   "title": "Iron Temple Fitness",
+   "type": "Gym",
+   "types": [
+    "Gym"
+   ],
+   "rating": 4.7,
+   "reviews": 89,
+   "place_id": "ChIJdemo0011",
+   "data_id": "0x3a4a0demo0011:0x000b",
+   "gps_coordinates": {
+    "latitude": 16.5062,
+    "longitude": 80.648
+   },
+   "address": "21-5, MG Road, Vijayawada, Andhra Pradesh 522503",
+   "phone": "+91 9339670711",
+   "website": "https://example.org/irontemple",
+   "operating_hours": {
+    "monday": "9 AM\u20131 PM, 5\u20139 PM",
+    "tuesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "wednesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "thursday": "9 AM\u20131 PM, 5\u20139 PM",
+    "friday": "9 AM\u20131 PM, 5\u20139 PM",
+    "saturday": "9 AM\u20131 PM, 5\u20139 PM",
+    "sunday": "Closed"
+   },
+   "photos_count": 12,
+   "description": null,
+   "thumbnail": null,
+   "position": 5
+  }
+ ]
+}

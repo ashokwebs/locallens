@@ -1,0 +1,217 @@
+{
+ "search_metadata": {
+  "status": "Success",
+  "demo_fixture": true
+ },
+ "place_info": {
+  "title": "Sunrise Dental Care",
+  "rating": 4.1,
+  "reviews": 38
+ },
+ "reviews": [
+  {
+   "user": {
+    "name": "Customer 854-4"
+   },
+   "rating": 4,
+   "date": "2 days ago",
+   "iso_date": "2026-09-25T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 854-3"
+   },
+   "rating": 5,
+   "date": "31 days ago",
+   "iso_date": "2026-08-27T10:00:00Z",
+   "snippet": "Good ambience and polite reception. Affordable.",
+   "likes": 0
+  },
+  {
+   "user": {
+    "name": "Customer 854-17"
+   },
+   "rating": 5,
+   "date": "44 days ago",
+   "iso_date": "2026-08-14T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 854-8"
+   },
+   "rating": 4,
+   "date": "71 days ago",
+   "iso_date": "2026-07-18T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 854-1"
+   },
+   "rating": 1,
+   "date": "141 days ago",
+   "iso_date": "2026-05-09T10:00:00Z",
+   "snippet": "Too expensive, charged extra for x-ray without telling.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 854-12"
+   },
+   "rating": 5,
+   "date": "152 days ago",
+   "iso_date": "2026-04-28T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 854-19"
+   },
+   "rating": 1,
+   "date": "203 days ago",
+   "iso_date": "2026-03-08T10:00:00Z",
+   "snippet": "Waiting time is very long on weekends.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 854-14"
+   },
+   "rating": 5,
+   "date": "247 days ago",
+   "iso_date": "2026-01-23T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 854-18"
+   },
+   "rating": 4,
+   "date": "312 days ago",
+   "iso_date": "2025-11-19T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 854-5"
+   },
+   "rating": 5,
+   "date": "361 days ago",
+   "iso_date": "2025-10-01T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 854-11"
+   },
+   "rating": 2,
+   "date": "366 days ago",
+   "iso_date": "2025-09-26T10:00:00Z",
+   "snippet": "Staff was rude on the phone and not picking calls.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 854-9"
+   },
+   "rating": 2,
+   "date": "435 days ago",
+   "iso_date": "2025-07-19T10:00:00Z",
+   "snippet": "Timings shown on Google are wrong, found it closed.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 854-0"
+   },
+   "rating": 5,
+   "date": "457 days ago",
+   "iso_date": "2025-06-27T10:00:00Z",
+   "snippet": "Good ambience and polite reception. Affordable.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 854-13"
+   },
+   "rating": 4,
+   "date": "469 days ago",
+   "iso_date": "2025-06-15T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 854-15"
+   },
+   "rating": 4,
+   "date": "517 days ago",
+   "iso_date": "2025-04-28T10:00:00Z",
+   "snippet": "Good ambience and polite reception. Affordable.",
+   "likes": 2,
+   "response": {
+    "date": "515 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 854-10"
+   },
+   "rating": 5,
+   "date": "547 days ago",
+   "iso_date": "2025-03-29T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 0
+  },
+  {
+   "user": {
+    "name": "Customer 854-6"
+   },
+   "rating": 5,
+   "date": "561 days ago",
+   "iso_date": "2025-03-15T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 854-2"
+   },
+   "rating": 3,
+   "date": "622 days ago",
+   "iso_date": "2025-01-13T10:00:00Z",
+   "snippet": "Not responding to WhatsApp messages for appointment.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 854-16"
+   },
+   "rating": 5,
+   "date": "624 days ago",
+   "iso_date": "2025-01-11T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 854-7"
+   },
+   "rating": 2,
+   "date": "662 days ago",
+   "iso_date": "2024-12-04T10:00:00Z",
+   "snippet": "Waiting time is very long on weekends.",
+   "likes": 3
+  }
+ ]
+}

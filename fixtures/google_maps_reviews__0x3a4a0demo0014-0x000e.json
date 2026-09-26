@@ -1,0 +1,265 @@
+{
+ "search_metadata": {
+  "status": "Success",
+  "demo_fixture": true
+ },
+ "place_info": {
+  "title": "Muscle Factory",
+  "rating": 4.2,
+  "reviews": 131
+ },
+ "reviews": [
+  {
+   "user": {
+    "name": "Customer 901-14"
+   },
+   "rating": 5,
+   "date": "5 days ago",
+   "iso_date": "2026-09-22T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 901-6"
+   },
+   "rating": 5,
+   "date": "34 days ago",
+   "iso_date": "2026-08-24T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 901-0"
+   },
+   "rating": 5,
+   "date": "38 days ago",
+   "iso_date": "2026-08-20T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 901-16"
+   },
+   "rating": 5,
+   "date": "41 days ago",
+   "iso_date": "2026-08-17T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 1,
+   "response": {
+    "date": "39 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 901-1"
+   },
+   "rating": 5,
+   "date": "42 days ago",
+   "iso_date": "2026-08-16T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 3,
+   "response": {
+    "date": "40 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 901-12"
+   },
+   "rating": 5,
+   "date": "45 days ago",
+   "iso_date": "2026-08-13T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 1,
+   "response": {
+    "date": "43 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 901-3"
+   },
+   "rating": 5,
+   "date": "46 days ago",
+   "iso_date": "2026-08-12T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 0,
+   "response": {
+    "date": "44 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 901-17"
+   },
+   "rating": 5,
+   "date": "66 days ago",
+   "iso_date": "2026-07-23T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 3,
+   "response": {
+    "date": "64 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 901-9"
+   },
+   "rating": 5,
+   "date": "121 days ago",
+   "iso_date": "2026-05-29T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 1,
+   "response": {
+    "date": "119 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 901-2"
+   },
+   "rating": 5,
+   "date": "165 days ago",
+   "iso_date": "2026-04-15T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 2,
+   "response": {
+    "date": "163 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 901-11"
+   },
+   "rating": 5,
+   "date": "324 days ago",
+   "iso_date": "2025-11-07T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 901-13"
+   },
+   "rating": 5,
+   "date": "476 days ago",
+   "iso_date": "2025-06-08T10:00:00Z",
+   "snippet": "Good ambience and polite reception. Affordable.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 901-5"
+   },
+   "rating": 5,
+   "date": "485 days ago",
+   "iso_date": "2025-05-30T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 0,
+   "response": {
+    "date": "483 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 901-4"
+   },
+   "rating": 5,
+   "date": "586 days ago",
+   "iso_date": "2025-02-18T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 2,
+   "response": {
+    "date": "584 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 901-8"
+   },
+   "rating": 5,
+   "date": "606 days ago",
+   "iso_date": "2025-01-29T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 3,
+   "response": {
+    "date": "604 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 901-18"
+   },
+   "rating": 5,
+   "date": "606 days ago",
+   "iso_date": "2025-01-29T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 0,
+   "response": {
+    "date": "604 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 901-15"
+   },
+   "rating": 5,
+   "date": "616 days ago",
+   "iso_date": "2025-01-19T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 901-7"
+   },
+   "rating": 5,
+   "date": "625 days ago",
+   "iso_date": "2025-01-10T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 3,
+   "response": {
+    "date": "623 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 901-10"
+   },
+   "rating": 5,
+   "date": "632 days ago",
+   "iso_date": "2025-01-03T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 901-19"
+   },
+   "rating": 5,
+   "date": "671 days ago",
+   "iso_date": "2024-11-25T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 1,
+   "response": {
+    "date": "669 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "search_metadata": {
+  "status": "Success",
+  "demo_fixture": true
+ },
+ "place_results": {
+  "title": "Sunrise Dental Care",
+  "type": "Dental clinic",
+  "types": [
+   "Dental clinic"
+  ],
+  "rating": 4.1,
+  "reviews": 38,
+  "place_id": "ChIJdemo0001",
+  "data_id": "0x3a4a0demo0001:0x0001",
+  "gps_coordinates": {
+   "latitude": 16.4312,
+   "longitude": 80.5681
+  },
+  "address": "11-2, Main Road, Mangalagiri, Andhra Pradesh 522503",
+  "phone": "+91 9786579303",
+  "website": null,
+  "operating_hours": null,
+  "photos_count": 4,
+  "description": null,
+  "thumbnail": null
+ }
+}

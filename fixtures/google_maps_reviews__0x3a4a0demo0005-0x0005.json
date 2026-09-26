@@ -1,0 +1,273 @@
+{
+ "search_metadata": {
+  "status": "Success",
+  "demo_fixture": true
+ },
+ "place_info": {
+  "title": "Bright Smile Dentistry",
+  "rating": 4.3,
+  "reviews": 61
+ },
+ "reviews": [
+  {
+   "user": {
+    "name": "Customer 167-0"
+   },
+   "rating": 5,
+   "date": "12 days ago",
+   "iso_date": "2026-09-15T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 0
+  },
+  {
+   "user": {
+    "name": "Customer 167-9"
+   },
+   "rating": 5,
+   "date": "51 days ago",
+   "iso_date": "2026-08-07T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 0,
+   "response": {
+    "date": "49 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-13"
+   },
+   "rating": 5,
+   "date": "73 days ago",
+   "iso_date": "2026-07-16T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 1,
+   "response": {
+    "date": "71 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-11"
+   },
+   "rating": 5,
+   "date": "75 days ago",
+   "iso_date": "2026-07-14T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 1,
+   "response": {
+    "date": "73 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-10"
+   },
+   "rating": 5,
+   "date": "106 days ago",
+   "iso_date": "2026-06-13T10:00:00Z",
+   "snippet": "Good ambience and polite reception. Affordable.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 167-17"
+   },
+   "rating": 5,
+   "date": "128 days ago",
+   "iso_date": "2026-05-22T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 167-19"
+   },
+   "rating": 5,
+   "date": "138 days ago",
+   "iso_date": "2026-05-12T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 2,
+   "response": {
+    "date": "136 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-18"
+   },
+   "rating": 5,
+   "date": "155 days ago",
+   "iso_date": "2026-04-25T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 1,
+   "response": {
+    "date": "153 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-2"
+   },
+   "rating": 5,
+   "date": "189 days ago",
+   "iso_date": "2026-03-22T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 0
+  },
+  {
+   "user": {
+    "name": "Customer 167-8"
+   },
+   "rating": 5,
+   "date": "193 days ago",
+   "iso_date": "2026-03-18T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 3,
+   "response": {
+    "date": "191 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-5"
+   },
+   "rating": 5,
+   "date": "244 days ago",
+   "iso_date": "2026-01-26T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 0,
+   "response": {
+    "date": "242 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-14"
+   },
+   "rating": 3,
+   "date": "256 days ago",
+   "iso_date": "2026-01-14T10:00:00Z",
+   "snippet": "Staff was rude on the phone and not picking calls.",
+   "likes": 0
+  },
+  {
+   "user": {
+    "name": "Customer 167-3"
+   },
+   "rating": 5,
+   "date": "264 days ago",
+   "iso_date": "2026-01-06T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 0,
+   "response": {
+    "date": "262 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-16"
+   },
+   "rating": 5,
+   "date": "271 days ago",
+   "iso_date": "2025-12-30T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 1,
+   "response": {
+    "date": "269 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-6"
+   },
+   "rating": 5,
+   "date": "273 days ago",
+   "iso_date": "2025-12-28T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 3,
+   "response": {
+    "date": "271 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-15"
+   },
+   "rating": 3,
+   "date": "375 days ago",
+   "iso_date": "2025-09-17T10:00:00Z",
+   "snippet": "Not responding to WhatsApp messages for appointment.",
+   "likes": 2,
+   "response": {
+    "date": "373 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-7"
+   },
+   "rating": 5,
+   "date": "486 days ago",
+   "iso_date": "2025-05-29T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 1,
+   "response": {
+    "date": "484 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-4"
+   },
+   "rating": 5,
+   "date": "520 days ago",
+   "iso_date": "2025-04-25T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 0,
+   "response": {
+    "date": "518 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-1"
+   },
+   "rating": 5,
+   "date": "536 days ago",
+   "iso_date": "2025-04-09T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 1,
+   "response": {
+    "date": "534 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 167-12"
+   },
+   "rating": 5,
+   "date": "542 days ago",
+   "iso_date": "2025-04-03T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 2,
+   "response": {
+    "date": "540 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  }
+ ]
+}

@@ -1,0 +1,257 @@
+{
+ "search_metadata": {
+  "status": "Success",
+  "demo_fixture": true
+ },
+ "place_info": {
+  "title": "Fit Nation Vijayawada",
+  "rating": 4.4,
+  "reviews": 240
+ },
+ "reviews": [
+  {
+   "user": {
+    "name": "Customer 70-6"
+   },
+   "rating": 5,
+   "date": "8 days ago",
+   "iso_date": "2026-09-19T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 2,
+   "response": {
+    "date": "6 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 70-2"
+   },
+   "rating": 5,
+   "date": "10 days ago",
+   "iso_date": "2026-09-17T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 70-3"
+   },
+   "rating": 5,
+   "date": "13 days ago",
+   "iso_date": "2026-09-14T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 2,
+   "response": {
+    "date": "11 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 70-8"
+   },
+   "rating": 5,
+   "date": "20 days ago",
+   "iso_date": "2026-09-07T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 2,
+   "response": {
+    "date": "18 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 70-19"
+   },
+   "rating": 5,
+   "date": "30 days ago",
+   "iso_date": "2026-08-28T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 2,
+   "response": {
+    "date": "28 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 70-4"
+   },
+   "rating": 5,
+   "date": "34 days ago",
+   "iso_date": "2026-08-24T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 70-13"
+   },
+   "rating": 5,
+   "date": "41 days ago",
+   "iso_date": "2026-08-17T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 2,
+   "response": {
+    "date": "39 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 70-15"
+   },
+   "rating": 5,
+   "date": "54 days ago",
+   "iso_date": "2026-08-04T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 1,
+   "response": {
+    "date": "52 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 70-1"
+   },
+   "rating": 5,
+   "date": "77 days ago",
+   "iso_date": "2026-07-12T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 70-5"
+   },
+   "rating": 5,
+   "date": "161 days ago",
+   "iso_date": "2026-04-19T10:00:00Z",
+   "snippet": "Good ambience and polite reception. Affordable.",
+   "likes": 1,
+   "response": {
+    "date": "159 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 70-12"
+   },
+   "rating": 5,
+   "date": "225 days ago",
+   "iso_date": "2026-02-14T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 70-9"
+   },
+   "rating": 5,
+   "date": "250 days ago",
+   "iso_date": "2026-01-20T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 70-11"
+   },
+   "rating": 5,
+   "date": "352 days ago",
+   "iso_date": "2025-10-10T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 0
+  },
+  {
+   "user": {
+    "name": "Customer 70-0"
+   },
+   "rating": 5,
+   "date": "396 days ago",
+   "iso_date": "2025-08-27T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 70-14"
+   },
+   "rating": 5,
+   "date": "449 days ago",
+   "iso_date": "2025-07-05T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 0,
+   "response": {
+    "date": "447 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 70-7"
+   },
+   "rating": 4,
+   "date": "460 days ago",
+   "iso_date": "2025-06-24T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 0
+  },
+  {
+   "user": {
+    "name": "Customer 70-16"
+   },
+   "rating": 5,
+   "date": "490 days ago",
+   "iso_date": "2025-05-25T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 0
+  },
+  {
+   "user": {
+    "name": "Customer 70-18"
+   },
+   "rating": 5,
+   "date": "554 days ago",
+   "iso_date": "2025-03-22T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 3,
+   "response": {
+    "date": "552 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 70-17"
+   },
+   "rating": 5,
+   "date": "613 days ago",
+   "iso_date": "2025-01-22T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 1,
+   "response": {
+    "date": "611 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 70-10"
+   },
+   "rating": 5,
+   "date": "700 days ago",
+   "iso_date": "2024-10-27T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 0,
+   "response": {
+    "date": "698 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  }
+ ]
+}

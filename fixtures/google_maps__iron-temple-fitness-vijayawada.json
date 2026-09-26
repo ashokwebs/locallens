@@ -1,0 +1,36 @@
+{
+ "search_metadata": {
+  "status": "Success",
+  "demo_fixture": true
+ },
+ "place_results": {
+  "title": "Iron Temple Fitness",
+  "type": "Gym",
+  "types": [
+   "Gym"
+  ],
+  "rating": 4.7,
+  "reviews": 89,
+  "place_id": "ChIJdemo0011",
+  "data_id": "0x3a4a0demo0011:0x000b",
+  "gps_coordinates": {
+   "latitude": 16.5062,
+   "longitude": 80.648
+  },
+  "address": "21-5, MG Road, Vijayawada, Andhra Pradesh 522503",
+  "phone": "+91 9339670711",
+  "website": "https://example.org/irontemple",
+  "operating_hours": {
+   "monday": "9 AM\u20131 PM, 5\u20139 PM",
+   "tuesday": "9 AM\u20131 PM, 5\u20139 PM",
+   "wednesday": "9 AM\u20131 PM, 5\u20139 PM",
+   "thursday": "9 AM\u20131 PM, 5\u20139 PM",
+   "friday": "9 AM\u20131 PM, 5\u20139 PM",
+   "saturday": "9 AM\u20131 PM, 5\u20139 PM",
+   "sunday": "Closed"
+  },
+  "photos_count": 12,
+  "description": null,
+  "thumbnail": null
+ }
+}

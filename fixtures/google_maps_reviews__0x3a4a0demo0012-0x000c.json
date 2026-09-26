@@ -1,0 +1,261 @@
+{
+ "search_metadata": {
+  "status": "Success",
+  "demo_fixture": true
+ },
+ "place_info": {
+  "title": "PowerZone Gym",
+  "rating": 4.5,
+  "reviews": 356
+ },
+ "reviews": [
+  {
+   "user": {
+    "name": "Customer 960-17"
+   },
+   "rating": 5,
+   "date": "6 days ago",
+   "iso_date": "2026-09-21T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 2,
+   "response": {
+    "date": "4 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 960-8"
+   },
+   "rating": 5,
+   "date": "12 days ago",
+   "iso_date": "2026-09-15T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 1,
+   "response": {
+    "date": "10 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 960-7"
+   },
+   "rating": 4,
+   "date": "21 days ago",
+   "iso_date": "2026-09-06T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 3,
+   "response": {
+    "date": "19 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 960-0"
+   },
+   "rating": 4,
+   "date": "23 days ago",
+   "iso_date": "2026-09-04T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 960-10"
+   },
+   "rating": 4,
+   "date": "26 days ago",
+   "iso_date": "2026-09-01T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 960-11"
+   },
+   "rating": 5,
+   "date": "30 days ago",
+   "iso_date": "2026-08-28T10:00:00Z",
+   "snippet": "Good ambience and polite reception. Affordable.",
+   "likes": 1,
+   "response": {
+    "date": "28 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 960-5"
+   },
+   "rating": 5,
+   "date": "33 days ago",
+   "iso_date": "2026-08-25T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 960-18"
+   },
+   "rating": 5,
+   "date": "33 days ago",
+   "iso_date": "2026-08-25T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 2
+  },
+  {
+   "user": {
+    "name": "Customer 960-2"
+   },
+   "rating": 5,
+   "date": "34 days ago",
+   "iso_date": "2026-08-24T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 960-14"
+   },
+   "rating": 5,
+   "date": "48 days ago",
+   "iso_date": "2026-08-10T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 0,
+   "response": {
+    "date": "46 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 960-19"
+   },
+   "rating": 5,
+   "date": "50 days ago",
+   "iso_date": "2026-08-08T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 1,
+   "response": {
+    "date": "48 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 960-15"
+   },
+   "rating": 4,
+   "date": "58 days ago",
+   "iso_date": "2026-07-31T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 960-1"
+   },
+   "rating": 5,
+   "date": "72 days ago",
+   "iso_date": "2026-07-17T10:00:00Z",
+   "snippet": "Good ambience and polite reception. Affordable.",
+   "likes": 0
+  },
+  {
+   "user": {
+    "name": "Customer 960-12"
+   },
+   "rating": 5,
+   "date": "143 days ago",
+   "iso_date": "2026-05-07T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 1,
+   "response": {
+    "date": "141 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 960-3"
+   },
+   "rating": 5,
+   "date": "252 days ago",
+   "iso_date": "2026-01-18T10:00:00Z",
+   "snippet": "Good ambience and polite reception. Affordable.",
+   "likes": 1,
+   "response": {
+    "date": "250 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 960-16"
+   },
+   "rating": 5,
+   "date": "444 days ago",
+   "iso_date": "2025-07-10T10:00:00Z",
+   "snippet": "Good ambience and polite reception. Affordable.",
+   "likes": 3,
+   "response": {
+    "date": "442 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 960-13"
+   },
+   "rating": 5,
+   "date": "500 days ago",
+   "iso_date": "2025-05-15T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 3,
+   "response": {
+    "date": "498 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 960-9"
+   },
+   "rating": 5,
+   "date": "504 days ago",
+   "iso_date": "2025-05-11T10:00:00Z",
+   "snippet": "Good ambience and polite reception. Affordable.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 960-4"
+   },
+   "rating": 5,
+   "date": "605 days ago",
+   "iso_date": "2025-01-30T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 0,
+   "response": {
+    "date": "603 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 960-6"
+   },
+   "rating": 5,
+   "date": "681 days ago",
+   "iso_date": "2024-11-15T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 2,
+   "response": {
+    "date": "679 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  }
+ ]
+}

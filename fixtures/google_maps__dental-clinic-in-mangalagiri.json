@@ -1,0 +1,178 @@
+{
+ "search_metadata": {
+  "status": "Success",
+  "demo_fixture": true
+ },
+ "local_results": [
+  {
+   "title": "Smile Craft Dental Studio",
+   "type": "Dental clinic",
+   "types": [
+    "Dental clinic"
+   ],
+   "rating": 4.8,
+   "reviews": 212,
+   "place_id": "ChIJdemo0002",
+   "data_id": "0x3a4a0demo0002:0x0002",
+   "gps_coordinates": {
+    "latitude": 16.433,
+    "longitude": 80.5702
+   },
+   "address": "12-3, Main Road, Mangalagiri, Andhra Pradesh 522503",
+   "phone": "+91 9219540831",
+   "website": "https://example.org/smilecraft",
+   "operating_hours": {
+    "monday": "9 AM\u20131 PM, 5\u20139 PM",
+    "tuesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "wednesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "thursday": "9 AM\u20131 PM, 5\u20139 PM",
+    "friday": "9 AM\u20131 PM, 5\u20139 PM",
+    "saturday": "9 AM\u20131 PM, 5\u20139 PM",
+    "sunday": "Closed"
+   },
+   "photos_count": 64,
+   "description": "Painless dental care, implants, braces.",
+   "thumbnail": null,
+   "position": 1
+  },
+  {
+   "title": "Care32 Dental Hospital",
+   "type": "Dental clinic",
+   "types": [
+    "Dental clinic"
+   ],
+   "rating": 4.6,
+   "reviews": 147,
+   "place_id": "ChIJdemo0003",
+   "data_id": "0x3a4a0demo0003:0x0003",
+   "gps_coordinates": {
+    "latitude": 16.4291,
+    "longitude": 80.566
+   },
+   "address": "13-4, Main Road, Mangalagiri, Andhra Pradesh 522503",
+   "phone": "+91 9126855092",
+   "website": "https://example.org/care32",
+   "operating_hours": {
+    "monday": "9 AM\u20131 PM, 5\u20139 PM",
+    "tuesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "wednesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "thursday": "9 AM\u20131 PM, 5\u20139 PM",
+    "friday": "9 AM\u20131 PM, 5\u20139 PM",
+    "saturday": "9 AM\u20131 PM, 5\u20139 PM",
+    "sunday": "Closed"
+   },
+   "photos_count": 41,
+   "description": "Family dentistry in Mangalagiri.",
+   "thumbnail": null,
+   "position": 2
+  },
+  {
+   "title": "Pearl Dental Clinic",
+   "type": "Dental clinic",
+   "types": [
+    "Dental clinic"
+   ],
+   "rating": 4.5,
+   "reviews": 96,
+   "place_id": "ChIJdemo0004",
+   "data_id": "0x3a4a0demo0004:0x0004",
+   "gps_coordinates": {
+    "latitude": 16.435,
+    "longitude": 80.5655
+   },
+   "address": "14-5, Main Road, Mangalagiri, Andhra Pradesh 522503",
+   "phone": "+91 9896233790",
+   "website": null,
+   "operating_hours": {
+    "monday": "9 AM\u20131 PM, 5\u20139 PM",
+    "tuesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "wednesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "thursday": "9 AM\u20131 PM, 5\u20139 PM",
+    "friday": "9 AM\u20131 PM, 5\u20139 PM",
+    "saturday": "9 AM\u20131 PM, 5\u20139 PM",
+    "sunday": "Closed"
+   },
+   "photos_count": 22,
+   "description": null,
+   "thumbnail": null,
+   "position": 3
+  },
+  {
+   "title": "Bright Smile Dentistry",
+   "type": "Dental clinic",
+   "types": [
+    "Dental clinic"
+   ],
+   "rating": 4.3,
+   "reviews": 61,
+   "place_id": "ChIJdemo0005",
+   "data_id": "0x3a4a0demo0005:0x0005",
+   "gps_coordinates": {
+    "latitude": 16.4275,
+    "longitude": 80.572
+   },
+   "address": "15-6, Main Road, Mangalagiri, Andhra Pradesh 522503",
+   "phone": "+91 9395310485",
+   "website": null,
+   "operating_hours": {
+    "monday": "9 AM\u20131 PM, 5\u20139 PM",
+    "tuesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "wednesday": "9 AM\u20131 PM, 5\u20139 PM",
+    "thursday": "9 AM\u20131 PM, 5\u20139 PM",
+    "friday": "9 AM\u20131 PM, 5\u20139 PM",
+    "saturday": "9 AM\u20131 PM, 5\u20139 PM",
+    "sunday": "Closed"
+   },
+   "photos_count": 15,
+   "description": null,
+   "thumbnail": null,
+   "position": 4
+  },
+  {
+   "title": "Sunrise Dental Care",
+   "type": "Dental clinic",
+   "types": [
+    "Dental clinic"
+   ],
+   "rating": 4.1,
+   "reviews": 38,
+   "place_id": "ChIJdemo0001",
+   "data_id": "0x3a4a0demo0001:0x0001",
+   "gps_coordinates": {
+    "latitude": 16.4312,
+    "longitude": 80.5681
+   },
+   "address": "11-2, Main Road, Mangalagiri, Andhra Pradesh 522503",
+   "phone": "+91 9786579303",
+   "website": null,
+   "operating_hours": null,
+   "photos_count": 4,
+   "description": null,
+   "thumbnail": null,
+   "position": 5
+  },
+  {
+   "title": "Nava Dental Care",
+   "type": "Dental clinic",
+   "types": [
+    "Dental clinic"
+   ],
+   "rating": 3.9,
+   "reviews": 23,
+   "place_id": "ChIJdemo0006",
+   "data_id": "0x3a4a0demo0006:0x0006",
+   "gps_coordinates": {
+    "latitude": 16.4368,
+    "longitude": 80.569
+   },
+   "address": "16-7, Main Road, Mangalagiri, Andhra Pradesh 522503",
+   "phone": "+91 9362950628",
+   "website": null,
+   "operating_hours": null,
+   "photos_count": 3,
+   "description": null,
+   "thumbnail": null,
+   "position": 6
+  }
+ ]
+}

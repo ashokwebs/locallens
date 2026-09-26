@@ -1,0 +1,261 @@
+{
+ "search_metadata": {
+  "status": "Success",
+  "demo_fixture": true
+ },
+ "place_info": {
+  "title": "Care32 Dental Hospital",
+  "rating": 4.6,
+  "reviews": 147
+ },
+ "reviews": [
+  {
+   "user": {
+    "name": "Customer 717-0"
+   },
+   "rating": 3,
+   "date": "20 days ago",
+   "iso_date": "2026-09-07T10:00:00Z",
+   "snippet": "Staff was rude on the phone and not picking calls.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 717-9"
+   },
+   "rating": 5,
+   "date": "28 days ago",
+   "iso_date": "2026-08-30T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 0,
+   "response": {
+    "date": "26 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 717-12"
+   },
+   "rating": 5,
+   "date": "28 days ago",
+   "iso_date": "2026-08-30T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 1,
+   "response": {
+    "date": "26 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 717-18"
+   },
+   "rating": 5,
+   "date": "32 days ago",
+   "iso_date": "2026-08-26T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 0,
+   "response": {
+    "date": "30 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 717-7"
+   },
+   "rating": 5,
+   "date": "51 days ago",
+   "iso_date": "2026-08-07T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 2,
+   "response": {
+    "date": "49 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 717-8"
+   },
+   "rating": 5,
+   "date": "66 days ago",
+   "iso_date": "2026-07-23T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 0,
+   "response": {
+    "date": "64 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 717-3"
+   },
+   "rating": 5,
+   "date": "68 days ago",
+   "iso_date": "2026-07-21T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 3,
+   "response": {
+    "date": "66 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 717-15"
+   },
+   "rating": 5,
+   "date": "73 days ago",
+   "iso_date": "2026-07-16T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 717-1"
+   },
+   "rating": 4,
+   "date": "77 days ago",
+   "iso_date": "2026-07-12T10:00:00Z",
+   "snippet": "Good ambience and polite reception. Affordable.",
+   "likes": 2,
+   "response": {
+    "date": "75 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 717-13"
+   },
+   "rating": 5,
+   "date": "122 days ago",
+   "iso_date": "2026-05-28T10:00:00Z",
+   "snippet": "Clean and hygienic clinic, painless treatment.",
+   "likes": 3,
+   "response": {
+    "date": "120 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 717-11"
+   },
+   "rating": 3,
+   "date": "141 days ago",
+   "iso_date": "2026-05-09T10:00:00Z",
+   "snippet": "Timings shown on Google are wrong, found it closed.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 717-10"
+   },
+   "rating": 5,
+   "date": "258 days ago",
+   "iso_date": "2026-01-12T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 3,
+   "response": {
+    "date": "256 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 717-4"
+   },
+   "rating": 5,
+   "date": "301 days ago",
+   "iso_date": "2025-11-30T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 717-17"
+   },
+   "rating": 3,
+   "date": "394 days ago",
+   "iso_date": "2025-08-29T10:00:00Z",
+   "snippet": "Staff was rude on the phone and not picking calls.",
+   "likes": 0
+  },
+  {
+   "user": {
+    "name": "Customer 717-19"
+   },
+   "rating": 5,
+   "date": "402 days ago",
+   "iso_date": "2025-08-21T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 2,
+   "response": {
+    "date": "400 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 717-6"
+   },
+   "rating": 5,
+   "date": "429 days ago",
+   "iso_date": "2025-07-25T10:00:00Z",
+   "snippet": "Very friendly staff and the doctor explained everything clearly.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 717-2"
+   },
+   "rating": 5,
+   "date": "533 days ago",
+   "iso_date": "2025-04-12T10:00:00Z",
+   "snippet": "Quick service, no waiting at all. Reasonable price.",
+   "likes": 3
+  },
+  {
+   "user": {
+    "name": "Customer 717-14"
+   },
+   "rating": 5,
+   "date": "576 days ago",
+   "iso_date": "2025-02-28T10:00:00Z",
+   "snippet": "Experienced doctor, very professional. Highly recommend.",
+   "likes": 0,
+   "response": {
+    "date": "574 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  },
+  {
+   "user": {
+    "name": "Customer 717-5"
+   },
+   "rating": 3,
+   "date": "663 days ago",
+   "iso_date": "2024-12-03T10:00:00Z",
+   "snippet": "Had to wait almost 2 hours despite appointment.",
+   "likes": 1
+  },
+  {
+   "user": {
+    "name": "Customer 717-16"
+   },
+   "rating": 5,
+   "date": "664 days ago",
+   "iso_date": "2024-12-02T10:00:00Z",
+   "snippet": "Treatment was gentle and the follow-up was on time.",
+   "likes": 0,
+   "response": {
+    "date": "662 days ago",
+    "snippet": "Thank you for your feedback!"
+   }
+  }
+ ]
+}
