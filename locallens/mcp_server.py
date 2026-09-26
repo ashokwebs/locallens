@@ -9,7 +9,10 @@ from typing import Any
 
 from mcp.server.mcpserver import MCPServer
 
+from statistics import mean
+
 from .engine import analyze_business, scan_area
+from .summary import spoken_summary
 from .serp import SerpClient
 
 
@@ -21,6 +24,8 @@ def _brief(a) -> dict[str, Any]:
         "ranks": a.ranks,
         "top_fixes": [{"title": f.title, "why": f.why, "effort": f.effort, "impact": f.impact} for f in a.fixes[:5]],
         "summary": a.summary_en,
+        "spoken": spoken_summary(a.business, a.score, round(mean(a.competitor_scores.values())) if a.competitor_scores else None,
+                                 a.fixes, a.ranks),
         "searches_used": a.searches_used,
         "data_mode": a.mode,
     }

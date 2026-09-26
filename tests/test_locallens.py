@@ -95,3 +95,13 @@ def test_mcp_tools_registered():
     tools = asyncio.run(build_mcp().list_tools())
     names = {t.name for t in tools}
     assert {"analyze_business_tool", "compare_competitors", "scan_area_tool"} <= names
+
+
+def test_voice_endpoint_and_spoken_summary():
+    c = TestClient(create_app())
+    d = c.get("/api/voice", params={"q": "Sunrise Dental Care, Mangalagiri"}).json()
+    assert d["spoken"].startswith("Sunrise Dental Care scores")
+    assert len(d["spoken"].split(". ")) <= 5 and d["fixes"]
+    assert c.get("/alexa").status_code == 200
+    miss = c.get("/api/voice", params={"q": "Unknown Place, Nowhere"}).json()
+    assert miss["spoken"].startswith("Sorry")

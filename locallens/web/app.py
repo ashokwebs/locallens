@@ -56,6 +56,25 @@ def create_app() -> FastAPI:
             raise HTTPException(404, "Run an analysis first or pass ?q=")
         return render_report(a)
 
+    @app.get("/api/voice")
+    def voice(q: str = Query(..., min_length=3)) -> dict[str, Any]:
+        """Voice endpoint for the Alexa+ simulation: short spoken answer + card data."""
+        from statistics import mean
+        from ..summary import spoken_summary
+        try:
+            a = analyze_business(q, client=SerpClient(), audit=False)
+        except LookupError as exc:
+            return {"spoken": f"Sorry, I couldn't find {q} on Google Maps.", "error": str(exc)}
+        avg = round(mean(a.competitor_scores.values())) if a.competitor_scores else None
+        _last["analysis"] = a
+        return {"spoken": spoken_summary(a.business, a.score, avg, a.fixes, a.ranks), "score": a.score,
+                "competitor_average": avg, "business": a.business.name,
+                "fixes": [f.title for f in a.fixes[:3]], "mode": a.mode}
+
+    @app.get("/alexa")
+    def alexa() -> FileResponse:
+        return FileResponse(STATIC / "alexa.html")
+
     @app.get("/")
     def index() -> FileResponse:
         return FileResponse(STATIC / "index.html")
