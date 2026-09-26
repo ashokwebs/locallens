@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LocalLens</title>
+<meta name="description" content="Why a local business loses to its neighbours on Google, and what to fix first.">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">◎</span> LocalLens <span id="mode" class="mode"></span></div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="analyze">Analyze a business</button>
+    <button role="tab" aria-selected="false" data-tab="scan">Scan an area</button>
+  </nav>
+</header>
+<main>
+  <section id="tab-analyze" class="panel">
+    <h1>Why is this shop losing to its neighbours on Google?</h1>
+    <p class="lead">LocalLens finds the business's real competitors on Google Maps, compares rankings, reviews and owner
+      replies, checks the website, and hands back a <strong>prioritised fix list</strong>, plus a WhatsApp-ready summary in English and Telugu.</p>
+    <form id="f-analyze" class="search">
+      <input id="q" name="q" placeholder="Business name, city (e.g. Sunrise Dental Care, Mangalagiri)" required minlength="3" autocomplete="off">
+      <label class="chk"><input type="checkbox" id="audit" checked> audit website</label>
+      <button type="submit">Analyze</button>
+    </form>
+    <div class="examples">Try: <button class="ex" data-q="Sunrise Dental Care, Mangalagiri">Sunrise Dental Care</button>
+      <button class="ex" data-q="Iron Temple Fitness, Vijayawada">Iron Temple Fitness</button></div>
+    <ol id="steps" class="steps" hidden></ol>
+    <div id="result" hidden></div>
+  </section>
+  <section id="tab-scan" class="panel" hidden>
+    <h1>Which businesses in this area have the biggest fixable gaps?</h1>
+    <p class="lead">For agencies and consultants: one search returns every business in a category and area, ranked by opportunity.</p>
+    <form id="f-scan" class="search">
+      <input id="cat" placeholder="Category (dental clinic, gym, bakery…)" required value="dental clinic">
+      <input id="area" placeholder="Area (Mangalagiri)" required value="Mangalagiri">
+      <button type="submit">Scan</button>
+    </form>
+    <div id="scan-result"></div>
+  </section>
+</main>
+<footer class="foot">Data: Google Maps &amp; Google Search via SerpApi · Built for the SerpApi India Hackathon 2026</footer>
+<script src="/static/app.js"></script>
+</body>
+</html>
