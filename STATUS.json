@@ -1,1 +1,0 @@
-{"project":"LocalLens","milestone":"M7","state":"working","percent":85,"last_update":"2026-09-27T04:47:57+05:30","tests":"8 passed","needs_claude":false,"needs_human":true,"question":"Needs SERPAPI_KEY in ~/.config/hackstack/.env for live data + demo video; repo publish by Ashok","next":"live-data verification when key exists; optional Gemini theme refinement"}
