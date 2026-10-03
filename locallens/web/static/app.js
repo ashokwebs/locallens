@@ -7,6 +7,11 @@ fetch("/api/health").then((r) => r.json()).then((h) => {
   const m = $("#mode");
   m.textContent = h.mode === "live" ? "LIVE · SerpApi" : "DEMO DATA";
   m.className = "mode " + h.mode;
+  if (h.mode === "live") {  // the default examples are fictional fixture businesses; swap in real ones for live data
+    const real = [["Siri Dental, Mangalagiri", "Siri Dental"], ["Trident Super Speciality Dental Hospital, Mangalagiri", "Trident Dental"]];
+    document.querySelectorAll(".ex").forEach((b, i) => { if (real[i]) { b.dataset.q = real[i][0]; b.textContent = real[i][1]; } });
+    $("#q").placeholder = "Business name, city (e.g. Siri Dental, Mangalagiri)";
+  }
 }).catch(() => {});
 
 document.querySelectorAll(".tabs button").forEach((b) => b.addEventListener("click", () => {

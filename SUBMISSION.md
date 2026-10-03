@@ -2,8 +2,8 @@
 
 **Project:** LocalLens
 **Track:** AI Agents
-**Repository:** <public GitHub URL: Ashok publishes>
-**Demo video:** <YouTube/Vimeo URL, under 3 minutes: see DEMO_SCRIPT.md>
+**Repository:** https://github.com/ashokwebs/locallens
+**Demo video:** <YouTube URL: upload `~/videos/out/locallens-serpapi-live.mp4` (2:45, live data), unlisted is fine>
 
 ## Description (≈250 words)
 India has 60M+ small businesses, and for clinics, gyms, coaching centres and shops, Google Maps "near me" searches decide
@@ -25,4 +25,5 @@ details, location-biased search) and google_maps_reviews; ≈9 searches per anal
 - **Prior work:** the website-audit module (`vendor/sitecheck.py`) existed before the hackathon and is reused as a component.
   Everything else (the SerpApi agent, scoring, fixes, reviews analysis, UI, MCP server) was built for this hackathon.
 - **AI tools used:** Claude (Anthropic) for coding assistance.
-- **Demo data:** fixtures are fictional businesses in SerpApi's response format; live mode uses real SerpApi results.
+- **Data:** the demo video runs on live SerpApi results (Mangalagiri dental clinics, 03 Oct 2026; 7 searches per analysis, cached on disk).
+  Without a key, the app falls back to fixtures: fictional businesses in SerpApi's response format, labelled DEMO DATA in the UI.
