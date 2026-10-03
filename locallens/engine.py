@@ -82,7 +82,7 @@ def resolve(client: SerpClient, query: str) -> Business | None:
 def enrich(client: SerpClient, b: Business) -> Business:
     """Fetch place details if the search result lacked them (hours/photos/description)."""
     if b.data_id and (b.photos is None or not b.has_hours or b.description is None):
-        place = client.maps_place(b.data_id).get("place_results")
+        place = client.maps_place(b.data_id, b.place_id).get("place_results")
         if place:
             detailed = Business.from_serp(place)
             for field in ("photos", "description", "website", "phone"):

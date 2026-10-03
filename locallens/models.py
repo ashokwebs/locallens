@@ -27,6 +27,8 @@ class Business:
     def from_serp(cls, r: dict[str, Any]) -> "Business":
         gps = r.get("gps_coordinates") or {}
         cat = r.get("type") or ((r.get("types") or [None])[0])
+        if isinstance(cat, list):  # live place results return "type" as a list
+            cat = cat[0] if cat else None
         photos = r.get("photos_count")
         if photos is None and isinstance(r.get("images"), list):
             photos = len(r["images"])

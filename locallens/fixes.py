@@ -61,9 +61,13 @@ def build_fixes(b: Business, ranks: dict[str, int | None], rs: ReviewStats, webs
     if rs.count_sampled:
         peer = median(peers_reply) if peers_reply else 0.5
         if (rs.reply_rate or 0) < max(0.3, peer):
-            fixes.append((Fix(f"Reply to reviews, starting with the {rs.unanswered_negative} unanswered negative ones",
-                              f"You reply to {round(100 * (rs.reply_rate or 0))}% of recent reviews; "
-                              f"competitors reply to {round(100 * peer)}%.",
+            neg = rs.unanswered_negative or 0
+            title = (f"Reply to reviews, starting with the {neg} unanswered negative one{'s' if neg != 1 else ''}" if neg
+                     else "Reply to every review (owners who reply look active to Google and customers)")
+            why = f"You reply to {round(100 * (rs.reply_rate or 0))}% of recent reviews; " + (
+                f"competitors reply to {round(100 * peer)}%." if peer > (rs.reply_rate or 0)
+                else "nobody nearby does either, so replying is an easy way to stand out.")
+            fixes.append((Fix(title, why,
                               "high", "1 hour", round(10 * max(0, peer - (rs.reply_rate or 0))) + 2, "engagement"),
                           TE["replies"]))
         peer_r = median(peer_recent) if peer_recent else 0

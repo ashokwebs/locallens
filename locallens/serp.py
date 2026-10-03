@@ -9,6 +9,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import urllib.error
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass, field
@@ -75,6 +76,12 @@ class SerpClient:
         try:
             with urllib.request.urlopen(req, timeout=60) as resp:
                 data = json.loads(resp.read().decode())
+        except urllib.error.HTTPError as exc:  # SerpApi explains 4xx in the JSON body; surface that, never the key
+            try:
+                msg = json.loads(exc.read().decode()).get("error") or f"HTTP {exc.code}"
+            except Exception:
+                msg = f"HTTP {exc.code}"
+            raise SerpError(f"SerpApi request failed for engine={params.get('engine')}: {msg}") from None
         except Exception as exc:  # network errors surface without leaking the key
             raise SerpError(f"SerpApi request failed for engine={params.get('engine')}: {type(exc).__name__}") from None
         if data.get("error") and "hasn't returned any results" not in data["error"]:
@@ -89,7 +96,10 @@ class SerpClient:
     def maps_search(self, q: str, ll: str | None = None) -> dict[str, Any]:
         return self.search({"engine": "google_maps", "type": "search", "q": q, "ll": ll, "hl": "en", "gl": "in"})
 
-    def maps_place(self, data_id: str) -> dict[str, Any]:
+    def maps_place(self, data_id: str, place_id: str | None = None) -> dict[str, Any]:
+        # Live SerpApi looks a place up by place_id (data_id alone is rejected); fixtures stay keyed by data_id.
+        if place_id and not self.settings.fixtures:
+            return self.search({"engine": "google_maps", "place_id": place_id, "hl": "en"})
         return self.search({"engine": "google_maps", "type": "place", "data_id": data_id, "hl": "en"})
 
     def maps_reviews(self, data_id: str) -> dict[str, Any]:
