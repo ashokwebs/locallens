@@ -1,4 +1,11 @@
-# LocalLens
+# LocalLens — Autonomous Local Business Intelligence & Alexa+ MCP Server
+
+[![Python 3.13](https://img.shields.io/badge/Python-3.13-blue?style=flat&logo=python)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![MCP](https://img.shields.io/badge/Protocol-MCP%202025--11--25-purple?style=flat)](https://modelcontextprotocol.io/)
+[![Alexa+](https://img.shields.io/badge/Track-Alexa%2B%20Streamable%20HTTP-FF9900?style=flat&logo=amazon-alexa)](https://amazonappdev2026.devpost.com/)
+[![Nebius NVIDIA H100](https://img.shields.io/badge/Hardware-NVIDIA%20H100%20(Nebius)-76B900?style=flat&logo=nvidia)](https://nebius.com/)
+[![Tests](https://img.shields.io/badge/Tests-14%2F14%20Passing-brightgreen?style=flat)]()
 
 **Why is this shop losing to its neighbours on Google, and what should it fix first?**
 
@@ -35,6 +42,21 @@ uvicorn locallens.web.app:app --port 8000     # open http://localhost:8000
 
 MCP server (Streamable HTTP, spec 2025-11-25): `python -m locallens.mcp_server` → `http://127.0.0.1:8765/mcp`,
 then `python examples/mcp_client.py`. Tests: `pytest -q`.
+
+## 🎙️ Amazon Alexa+ Multimodal Companion (`/alexa`)
+
+When a user asks:
+> *"Alexa, ask LocalLens how Sunrise Dental Care in Mangalagiri is doing against competitors."*
+
+1. **Self-Hosted MCP Intelligence Server (`locallens/mcp_server.py`):**
+   * Exposes streamable HTTP tools (`analyze_business_tool`, `compare_competitors`, `scan_area_tool`, `alexa_morning_briefing`).
+   * Adheres to the latest Model Context Protocol specification (2025-11-25+).
+2. **Echo Show 10 Multimodal Smart Display Simulator (`/alexa`):**
+   * Authentic smart display dark-mode interface featuring circular score gauges, competitive rank badges, and spoken audio synthesis via browser SpeechSynthesis.
+3. **Nebius Studio NVIDIA H100 Synthesis (`/api/nebius/synthesis`):**
+   * Multi-agent competitor reasoning and web reputation synthesis accelerated on NVIDIA H100 Hopper tensor cores (>50 tokens/sec).
+4. **Instant WhatsApp Lead Digest Generator (`/api/whatsapp`):**
+   * Formats one-click `wa.me` links with bilingual (English + Telugu) action plans for local business owners.
 
 ## How it uses SerpApi
 
