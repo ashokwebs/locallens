@@ -62,6 +62,30 @@ def build_mcp() -> MCPServer:
         return {"results": [{"name": r["business"]["name"], "position": r["position"], "quick_score": r["quick_score"],
                              "gaps": r["gaps"]} for r in rows]}
 
+    @mcp.tool(description="Generate an executive morning spoken briefing for Alexa+ smart speakers and Echo Show screens.")
+    def alexa_morning_briefing(business: str, city: str | None = None) -> dict[str, Any]:
+        a = analyze_business(business, city=city, client=SerpClient(), audit=False)
+        avg = round(mean(a.competitor_scores.values())) if a.competitor_scores else None
+        gap = (avg - a.score) if avg else 0
+        gap_phrase = f"{gap} points behind the local average" if gap > 0 else f"{abs(gap)} points ahead of local rivals" if gap < 0 else "matching the local average"
+        top_comp = a.competitors[0].name if a.competitors else "None"
+        top_fix = a.fixes[0].title if a.fixes else "Keep monitoring reviews"
+        briefing_text = (
+            f"Good morning! Here is your LocalLens briefing for {a.business.name}. "
+            f"Your current visibility score is {a.score} out of 100, which is {gap_phrase}. "
+            f"Your primary rival nearby is {top_comp}. "
+            f"Your top priority action today: {top_fix}."
+        )
+        return {
+            "spoken_briefing": briefing_text,
+            "visibility_score": a.score,
+            "competitor_average": avg,
+            "top_rival": top_comp,
+            "daily_priority_action": top_fix,
+            "estimated_effort": a.fixes[0].effort if a.fixes else "None",
+            "business": a.business.name,
+        }
+
     return mcp
 
 

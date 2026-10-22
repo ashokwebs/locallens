@@ -58,7 +58,7 @@ def create_app() -> FastAPI:
 
     @app.get("/api/voice")
     def voice(q: str = Query(..., min_length=3)) -> dict[str, Any]:
-        """Voice endpoint for the Alexa+ simulation: short spoken answer + card data."""
+        """Voice endpoint for the Alexa+ simulation: short spoken answer + rich multimodal card data."""
         from statistics import mean
         from ..summary import spoken_summary
         try:
@@ -67,9 +67,30 @@ def create_app() -> FastAPI:
             return {"spoken": f"Sorry, I couldn't find {q} on Google Maps.", "error": str(exc)}
         avg = round(mean(a.competitor_scores.values())) if a.competitor_scores else None
         _last["analysis"] = a
-        return {"spoken": spoken_summary(a.business, a.score, avg, a.fixes, a.ranks), "score": a.score,
-                "competitor_average": avg, "business": a.business.name,
-                "fixes": [f.title for f in a.fixes[:3]], "mode": a.mode}
+        return {
+            "spoken": spoken_summary(a.business, a.score, avg, a.fixes, a.ranks),
+            "score": a.score,
+            "competitor_average": avg,
+            "business": a.business.name,
+            "category": a.business.category or "Local Business",
+            "rating": a.business.rating or 0.0,
+            "reviews_count": a.business.reviews,
+            "ranks": a.ranks,
+            "competitors": [
+                {
+                    "name": c.name,
+                    "score": a.competitor_scores.get(c.name, 50),
+                    "rating": c.rating or 0.0,
+                    "reviews": c.reviews,
+                }
+                for c in a.competitors[:3]
+            ],
+            "fixes": [
+                {"title": f.title, "why": f.why, "effort": f.effort, "impact": f.impact}
+                for f in a.fixes[:4]
+            ],
+            "mode": a.mode,
+        }
 
     @app.get("/alexa")
     def alexa() -> FileResponse:

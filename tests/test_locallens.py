@@ -94,7 +94,7 @@ def test_mcp_tools_registered():
     from locallens.mcp_server import build_mcp
     tools = asyncio.run(build_mcp().list_tools())
     names = {t.name for t in tools}
-    assert {"analyze_business_tool", "compare_competitors", "scan_area_tool"} <= names
+    assert {"analyze_business_tool", "compare_competitors", "scan_area_tool", "alexa_morning_briefing"} <= names
 
 
 def test_voice_endpoint_and_spoken_summary():
