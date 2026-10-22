@@ -39,3 +39,16 @@ def test_config_nebius_provider(monkeypatch):
     monkeypatch.setenv("NEBIUS_API_KEY", "test-nebius-key")
     settings = get_settings()
     assert settings.llm_provider == "nebius"
+
+
+def test_web_api_nebius_endpoint():
+    from fastapi.testclient import TestClient
+    from locallens.web.app import app
+
+    client = TestClient(app)
+    resp = client.get("/api/nebius/synthesis", params={"q": "Sunrise Dental Care, Mangalagiri"})
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "nebius_synthesis" in data
+    assert "reputation_signals" in data
+    assert "NVIDIA" in data["nebius_synthesis"]["hardware"]

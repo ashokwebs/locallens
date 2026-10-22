@@ -92,6 +92,40 @@ def create_app() -> FastAPI:
             "mode": a.mode,
         }
 
+    @app.get("/api/nebius/synthesis")
+    def nebius_synthesis(q: str = Query(..., min_length=3)) -> dict[str, Any]:
+        """High-speed competitor synthesis powered by Nebius Studio NVIDIA H100 inference."""
+        from ..nebius import synthesize_competitor_analysis
+        from ..tavily import search_tavily, extract_reputation_signals
+
+        client = SerpClient()
+        try:
+            a = analyze_business(q, client=client, audit=False)
+        except LookupError as exc:
+            raise HTTPException(404, str(exc)) from None
+
+        # Fetch Tavily search signals for grounding
+        tavily_raw = search_tavily(f"{a.business.name} {a.business.address or ''} reviews customer complaints")
+        signals = extract_reputation_signals(tavily_raw)
+
+        competitors_payload = [
+            {"name": c.name, "score": a.competitor_scores.get(c.name, 60), "rating": c.rating, "reviews": c.reviews}
+            for c in a.competitors[:4]
+        ]
+
+        synthesis = synthesize_competitor_analysis(
+            business_name=a.business.name,
+            business_score=a.score,
+            competitors=competitors_payload,
+            web_signals=signals,
+        )
+        return {
+            "business": a.business.name,
+            "score": a.score,
+            "nebius_synthesis": synthesis,
+            "reputation_signals": signals,
+        }
+
     @app.get("/alexa")
     def alexa() -> FileResponse:
         return FileResponse(STATIC / "alexa.html")
