@@ -43,7 +43,12 @@ def get_settings() -> Settings:
     key = os.environ.get("SERPAPI_KEY") or None
     forced = os.environ.get("LOCALLENS_FIXTURES", "").lower() in {"1", "true", "yes"}
     provider = None
-    for name, env in (("gemini", "GEMINI_API_KEY"), ("groq", "GROQ_API_KEY"), ("openrouter", "OPENROUTER_API_KEY")):
+    for name, env in (
+        ("nebius", "NEBIUS_API_KEY"),
+        ("gemini", "GEMINI_API_KEY"),
+        ("groq", "GROQ_API_KEY"),
+        ("openrouter", "OPENROUTER_API_KEY"),
+    ):
         if os.environ.get(env):
             provider = name
             break
