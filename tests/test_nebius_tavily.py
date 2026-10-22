@@ -52,3 +52,17 @@ def test_web_api_nebius_endpoint():
     assert "nebius_synthesis" in data
     assert "reputation_signals" in data
     assert "NVIDIA" in data["nebius_synthesis"]["hardware"]
+
+
+def test_web_api_whatsapp_lead_endpoint():
+    from fastapi.testclient import TestClient
+    from locallens.web.app import app
+
+    client = TestClient(app)
+    resp = client.get("/api/whatsapp", params={"q": "Sunrise Dental Care, Mangalagiri", "lang": "en"})
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "Sunrise Dental Care" in data["business"]
+    assert "wa_link" in data
+    assert data["wa_link"].startswith("https://wa.me/?text=")
+    assert "Google Visibility Score" in data["message"]

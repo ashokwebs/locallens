@@ -126,6 +126,35 @@ def create_app() -> FastAPI:
             "reputation_signals": signals,
         }
 
+    @app.get("/api/whatsapp")
+    def whatsapp_lead_message(q: str = Query(..., min_length=3), lang: str = "en") -> dict[str, Any]:
+        """Generates an immediate, copy-paste WhatsApp outreach message for local SMBs."""
+        from ..summary import summary_en, summary_te
+        from statistics import mean
+        import urllib.parse
+
+        client = SerpClient()
+        try:
+            a = analyze_business(q, client=client, audit=False)
+        except LookupError as exc:
+            raise HTTPException(404, str(exc)) from None
+
+        avg = round(mean(a.competitor_scores.values())) if a.competitor_scores else None
+        if lang == "te":
+            fixes_te = [f.title for f in a.fixes[:3]]
+            text = summary_te(a.business, a.score, avg, fixes_te)
+        else:
+            text = summary_en(a.business, a.score, avg, a.fixes)
+
+        wa_url = f"https://wa.me/?text={urllib.parse.quote(text)}"
+        return {
+            "business": a.business.name,
+            "score": a.score,
+            "lang": lang,
+            "message": text,
+            "wa_link": wa_url,
+        }
+
     @app.get("/alexa")
     def alexa() -> FileResponse:
         return FileResponse(STATIC / "alexa.html")
